@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://yitiantiana.github.io</id>
+    <title>My-sea</title>
+    <updated>2023-02-12T11:39:26.849Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://yitiantiana.github.io"/>
+    <link rel="self" href="https://yitiantiana.github.io/atom.xml"/>
+    <logo>https://yitiantiana.github.io/images/avatar.png</logo>
+    <icon>https://yitiantiana.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2023, My-sea</rights>
+    <entry>
+        <title type="html"><![CDATA[关于]]></title>
+        <id>https://yitiantiana.github.io/post/guan-yu/</id>
+        <link href="https://yitiantiana.github.io/post/guan-yu/">
+        </link>
+        <updated>2023-02-12T11:37:23.000Z</updated>
+    </entry>
+</feed>

@@ -1,0 +1,170 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>关于 | My-sea</title>
+<link rel="shortcut icon" href="https://yitiantiana.github.io/favicon.ico?v=1676201957756">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://yitiantiana.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="关于 | My-sea - Atom Feed" href="https://yitiantiana.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="👨‍💻 有外挂🎃辅助，正在自学转码的新手一枚。
+🤡不能吃苦也不能耐劳，目前在探索无痛转码，只想要Love and Peace。
+📬 dandandan.sea@gmail.com
+..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://yitiantiana.github.io">
+  <img class="avatar" src="https://yitiantiana.github.io/images/avatar.png?v=1676201957756" alt="">
+  </a>
+  <h1 class="site-title">
+    My-sea
+  </h1>
+  <p class="site-description">
+    
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              关于
+            </h2>
+            <div class="post-info">
+              <span>
+                2023-02-12
+              </span>
+              <span>
+                1 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content" v-pre>
+                <h2 id="有外挂辅助正在自学转码的新手一枚">👨‍💻 有外挂🎃辅助，正在自学转码的新手一枚。</h2>
+<h2 id="不能吃苦也不能耐劳目前在探索无痛转码只想要love-and-peace">🤡不能吃苦也不能耐劳，目前在探索无痛转码，只想要Love and Peace。</h2>
+<h2 id="dandandanseagmailcom">📬 dandandan.sea@gmail.com</h2>
+
+              </div>
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#%E6%9C%89%E5%A4%96%E6%8C%82%E8%BE%85%E5%8A%A9%E6%AD%A3%E5%9C%A8%E8%87%AA%E5%AD%A6%E8%BD%AC%E7%A0%81%E7%9A%84%E6%96%B0%E6%89%8B%E4%B8%80%E6%9E%9A">👨‍💻 有外挂🎃辅助，正在自学转码的新手一枚。</a></li>
+<li><a href="#%E4%B8%8D%E8%83%BD%E5%90%83%E8%8B%A6%E4%B9%9F%E4%B8%8D%E8%83%BD%E8%80%90%E5%8A%B3%E7%9B%AE%E5%89%8D%E5%9C%A8%E6%8E%A2%E7%B4%A2%E6%97%A0%E7%97%9B%E8%BD%AC%E7%A0%81%E5%8F%AA%E6%83%B3%E8%A6%81love-and-peace">🤡不能吃苦也不能耐劳，目前在探索无痛转码，只想要Love and Peace。</a></li>
+<li><a href="#dandandanseagmailcom">📬 dandandan.sea@gmail.com</a></li>
+</ul>
+</li>
+</ul>
+
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+
+        
+
+        <div class="site-footer">
+  
+  <a class="rss" href="https://yitiantiana.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
